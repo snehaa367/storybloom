@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Storybloom Design System — Variables & Design Tokens
+   Aesthetic: Premium Magical Nighttime Dark Purple & Lavender
+   ========================================================================== */
+
+:root {
+  /* Dark purple & lavender theme palette */
+  --color-paper-base: #100D1C;
+  --color-paper-light: #191329;
+  --color-paper-card: #211A35;
+  --color-paper-elevated: #2B2244;
+  --color-paper-sunken: #191329;
+  --color-paper-border: #403455;
+  --color-paper-border-soft: rgba(64, 52, 85, 0.65);
+  --color-paper-border-hover: #8876B5;
+
+  /* Lavender accent tokens */
+  --color-lavender: #B9A0FF;
+  --color-lavender-light: #D6C9FF;
+  --color-lavender-muted: #8876B5;
+  --color-lavender-surface: #2B2244;
+  --color-lavender-border: #403455;
+  --color-magical-glow: #A78BFA;
+
+  /* Botanical / Accent Tags aligned to Lavender & Nighttime aesthetic */
+  --color-sage: #D6C9FF;
+  --color-sage-light: #F5F0FF;
+  --color-sage-surface: #2B2244;
+  --color-sage-border: #403455;
+
+  --color-dusty-blue: #B9A0FF;
+  --color-dusty-blue-light: #D6C9FF;
+  --color-dusty-blue-surface: #2B2244;
+  --color-dusty-blue-border: #403455;
+
+  --color-peach: #D6C9FF;
+  --color-peach-light: #F5F0FF;
+  --color-peach-surface: #2B2244;
+  --color-peach-border: #403455;
+
+  --color-amber: #B9A0FF;
+  --color-amber-surface: #2B2244;
+  --color-amber-border: #403455;
+
+  /* --- Text & Contrast System (WCAG Verified) --- */
+  --color-text-primary: #F5F0FF;        /* Main text */
+  --color-text-secondary: #B8AECF;      /* Secondary text */
+  --color-text-muted: #8876B5;          /* Muted lavender */
+  --color-text-whisper: #67568C;        /* Deep subtle muted */
+  --color-text-inverse: #100D1C;        /* Dark text on light buttons */
+
+  /* --- Typography --- */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+  --text-4xl: 2.25rem;    /* 36px */
+  --text-5xl: 3rem;       /* 48px */
+  --text-6xl: 3.75rem;    /* 60px */
+
+  --leading-none: 1;
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+  --leading-loose: 2;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.04em;
+  --tracking-widest: 0.12em;
+
+  /* --- Spacing Scale --- */
+  --space-1: 0.25rem;     /* 4px */
+  --space-2: 0.5rem;      /* 8px */
+  --space-3: 0.75rem;     /* 12px */
+  --space-4: 1rem;        /* 16px */
+  --space-5: 1.25rem;     /* 20px */
+  --space-6: 1.5rem;      /* 24px */
+  --space-8: 2rem;        /* 32px */
+  --space-10: 2.5rem;     /* 40px */
+  --space-12: 3rem;       /* 48px */
+  --space-16: 4rem;       /* 64px */
+  --space-20: 5rem;       /* 80px */
+  --space-24: 6rem;       /* 96px */
+
+  /* --- Radii (Storybook Rounded Aesthetics) --- */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* --- Magical Nighttime Glow & Deep Shadows --- */
+  --shadow-paper-xs: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-paper-sm: 0 3px 10px rgba(0, 0, 0, 0.45);
+  --shadow-paper-md: 0 8px 24px rgba(0, 0, 0, 0.55), 0 0 16px rgba(167, 139, 250, 0.06);
+  --shadow-paper-lg: 0 16px 36px rgba(0, 0, 0, 0.65), 0 0 24px rgba(167, 139, 250, 0.1);
+  --shadow-paper-float: 0 24px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(167, 139, 250, 0.16);
+
+  /* --- Fluid Transitions --- */
+  --transition-fast: 150ms cubic-bezier(0.2, 0, 0, 1);
+  --transition-normal: 250ms cubic-bezier(0.2, 0, 0, 1);
+  --transition-slow: 400ms cubic-bezier(0.2, 0, 0, 1);
+
+  /* --- Layout Constraints --- */
+  --container-max-width: 1180px;
+  --container-reading-width: 720px;
+  --header-height: 72px;
+}
+
+
