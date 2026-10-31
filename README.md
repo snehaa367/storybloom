@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Storybloom — Interactive Digital Storybook
 
 Storybloom is an interactive bedtime storybook web application crafted with React, Vite, HTML, and CSS. It offers an immersive, dreamy sanctuary with bespoke watercolor illustrations, calming ambient procedural soundscapes, dynamic atmospheric animations, and an interactive Story Oracle.
@@ -33,3 +34,6 @@ npm run dev
 # Build for production
 npm run build
 ```
+=======
+# storybloom
+>>>>>>> 9e980effc02d52a9c4063fcfba0624f845844909
